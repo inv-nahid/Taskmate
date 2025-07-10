@@ -38,7 +38,7 @@ app.get("/todos", async function (req, res) {
     }
 });
 
-// ✅ Delete todo when marked
+// Delete todo when marked
 app.delete("/todo/:id", async function (req, res) {
     const id = req.params.id;
     try {
